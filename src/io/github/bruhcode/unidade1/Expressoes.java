@@ -111,13 +111,13 @@ public class Expressoes extends Algoritmo {
 		 */
 		
 		/*
-		 * Operação	     Operador Significado
-		 * Igual            =       A = 1
-		 * Diferente        <>      A <> B
-		 * Maior            >       A > B
-		 * Menor que        <       A < B
-		 * Maior ou igual   >=      A >= B
-		 * Menor ou igual   <=      A <= B
+		 * Operação	       Operador      Significado
+		 * Igual              =             A = 1
+		 * Diferente          <>            A <> B
+		 * Maior              >             A > B
+		 * Menor que          <             A < B
+		 * Maior ou igual     >=            A >= B
+		 * Menor ou igual     <=            A <= B
 		 */
 		
 		/*
@@ -172,6 +172,54 @@ public class Expressoes extends Algoritmo {
 
 		resultado = x <= y; // X é menor ou igual a Y ?
 		Escreva(resultado); // Verdadeiro
+		
+		/*
+		 * LÓGICAS
+		 * As expressões lógicas são aquelas cujo resultado consiste
+		 * em um valor lógico verdadeiro ou falso. Neste tipo de expressão
+		 * podem ser usados os operadores relacionais, lógicos e expressões
+		 * matemáticas.
+		 * 
+		 * Operadores lógicos: conjunção, disjunção e negação.
+		 * 
+		 * Disjunção: OU -> A disjunção entre duas variáveis resulta em um valor
+		 * verdadeiro quando pelo menos uma das variáveis é verdadeira.
+		 * 
+		 * Conjunção: E -> A conjunção entre duas variáveis resulta em um valor
+		 * verdadeiro somente quando as duas variáveis são verdadeiras.
+		 * 
+		 * Negação: NÃO -> A negação inverte o valor de uma variável. Se a variável A é
+		 * verdadeira, a negação de A, torna o valor da variável falso.
+		 * 
+		 */
+		
+		/* Problema -> Saber se o número é par e positivo
+		 * Objetivo: mostrar se o número digitado pelo usuário e mostrar se o número é par e positivo.
+		 * Entrada: número do tipo inteiro
+		 * Processamento: verificar se o número par. Todo número par é divisível por 2, então basta
+		 * calcular o resto da divisão por 2 e verificar se é igual 0. Verificar também se o número é positivo.
+		 * Saída: mostrar se o número é par e positivo
+		 * 
+		 * Algoritmo par
+		 * 	Var
+		 * 		p : Inteiro
+		 * 	Inicio
+		 * 		Escreva("Informe um número: ")
+		 * 		Leia(p)
+		 * 		Se (p % 2 = 0 E p > 0) faça
+		 * 			Escreva("O número é par e é positivo.")
+		 * 		Fim_se
+		 * Fim.
+		 */
+		int p = LeiaInteiro();
+		if (p % 2 == 0 && p > 0) {
+			Escreva("O número é par e é positivo.");
+		}
+		
+		/*
+		 * LITERAIS
+		 * As expressões literais consistem em expressões cujo resultado é um caractere.
+		 */
 		
 
 	}
