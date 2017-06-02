@@ -1,8 +1,10 @@
 package io.github.bruhcode.unidade3;
 
-import java.util.Scanner;
+import io.github.bruhcode.algoritmo.Algoritmo;
 
-public class Loop {
+// Classe principal extende algoritmo para herdar os métodos
+// que o pseudocódigo utiliza.
+public class Loop extends Algoritmo {
 
 	/*
 	 * ESTRUTURAS DE REPETIÇÃO EM PSEUDOCÓDIGO E EM JAVA
@@ -11,18 +13,25 @@ public class Loop {
 	 * os loops, ou estruturas de repetição.
 	 * 
 	 * Essas estruturas podem ser contadas ou condicionadas.
+	 * 
+	 * ESTRUTURAS CONTADAS
 	 * Utilizamos estruturas contadas quando sabemos quantas
 	 * vezes vamos repetir o trecho de código. Por exemplo, podemos
 	 * calcular a tabuada de um número, imprimir os números entre 1 e 100,
 	 * etc.
+	 * 
+	 * ESTRUTURAS CONDICIONADAS
+	 * Utilizamos estruturas condicionadas quando não sabemos
+	 * quantas vezes vamos repetir o trecho de código. Por exemplo, podemos
+	 * solicitar que o usuário informe ATÉ que ele informe um número entre
+	 * 1 e 12. Continuamos repetindo a instrução enquanto o usuário não 
+	 * informar o número corretamente.
 	 */
-
+	
 	// Método principal do programa
 	public static void main(String[] args) {
-		// Objeto scanner para ler a entrada do usuário
-		Scanner s = new Scanner(System.in);
 		
-		 /* ESTRUTURA PARA
+		/* ESTRUTURA PARA
 		 * Var valor: inteiro
 		 * Para valor de 0 até 9 passo 1 faça
 		 * Escreva(valor)
@@ -54,18 +63,26 @@ public class Loop {
 		 * 	Fim_para
 		 * Fim.
 		 */
-		int num;
-		System.out.println("---- Tabuada ----");
-		System.out.println("Informe um número inteiro: ");
-		num = s.nextInt();
+		Escreva("---- Tabuada ----");
+		Escreva("Informe um número inteiro: ");
+		int num = LeiaInteiro();
 		for(int i = 1; i <= 10; i++) {
-			System.out.println(num + " x " + i + " = " + num * i);
+			Escreva(num, " x ", i, " = ", num * i);
 		}
 		
 		/* ESTRUTURA ENQUANTO
-		 * 
-		 * 
+		 * Var x : inteiro
+		 * x = 10
+		 * Enquanto (x > 0) faça
+		 * Escreva(x--)
+		 * Fim_enquanto
 		 */
+		int x = 10;
+		while(x > 0) {
+			Escreva(x--);
+		}
+		
+		
 	}
 
 }
