@@ -24,7 +24,7 @@ Eu tomei a iniciativa de escrever algumas funções que só existem no pseudo-c�
 
 **<i class="icon-code"></i> Java**
 
-    public class Tabuada {
+    public class Tabuada extends Algoritmo {
 		public static void main(String[] args) {
 		
 			Escreva("---- Tabuada ----");
