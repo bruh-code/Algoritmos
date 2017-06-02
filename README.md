@@ -2,9 +2,12 @@ Algoritmos e Lógica de Programação
 ===================
 
 Este é um projeto criado para mostrar alguns conceitos de algoritmos e lógica de programação. Os exercícios são baseados no livro Algoritmos e Lógica de Programação I escrito pela professora Me. Gislaine Camila Lapasini Leal, publicado pela UniCesumar.
-Os códigos serão escritos em pseudocódigo e depois colocados em prática na linguagem Java.
 
-Eu tomei a iniciativa de escrever algumas funções que só existem no pseudo-código também em linguagem Java, para ficar mais fácil converter os algoritmos para o pseudocódigo. Veja um exemplo de um algoritmo:
+Os códigos serão escritos em pseudocódigo e depois colocados em prática na linguagem Java. Você pode acessá-los dentro da pasta `src/io/github/bruhcode`, lá eles estão separados de acordo com as unidades do livro.
+
+Você vai perceber que todos os pseudocódigos estão comentados (os comentários não são compilados com o programa), e logo abaixo deles está a implementação do código em Java.
+
+Eu tomei a iniciativa de escrever algumas funções que só existem no pseudo-código também em linguagem Java, para ficar mais fácil converter os algoritmos para o Java. Veja um exemplo de um algoritmo:
 
 **<i class="icon-doc-text"></i> Pseudocódigo**
 
