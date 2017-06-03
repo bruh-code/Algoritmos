@@ -194,7 +194,7 @@ public class Expressoes extends Algoritmo {
 		 */
 		
 		/* Problema -> Saber se o número é par e positivo
-		 * Objetivo: mostrar se o número digitado pelo usuário e mostrar se o número é par e positivo.
+		 * Objetivo: mostrar se o número digitado pelo usuário é par e positivo.
 		 * Entrada: número do tipo inteiro
 		 * Processamento: verificar se o número par. Todo número par é divisível por 2, então basta
 		 * calcular o resto da divisão por 2 e verificar se é igual 0. Verificar também se o número é positivo.
@@ -220,7 +220,7 @@ public class Expressoes extends Algoritmo {
 		 * LITERAIS
 		 * As expressões literais consistem em expressões cujo resultado é um caractere.
 		 */
-		
+		//TODO adicionar expressões literais
 
 	}
 }
